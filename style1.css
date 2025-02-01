@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.foto {
+    position: relative;
+    left: 850px;
+    top: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.logoinst {
+	position: relative;
+	left: -20px;
+	width: 30px;
+	height: 30px;
+}
+
+.logotelega {
+	position: relative;
+	left: -20px;
+	width: 30px;
+	height: 30px;
+}
+
+.logovk {
+	position: relative;
+	left: -20px;
+	width: 30px;
+	height: 30px;
+}
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src:  url('ofont.ru_Goznak.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'MyCustomFont1';
+    src:  url('ofont.ru_Etude Noire.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'MyCustomFont2';
+    src:  url('ofont.ru_Etude Noire1.ttf') format('opentype');
+}
+
+h1 {
+    font-family: 'MyCustomFont', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 90px;
+	margin-bottom: 20px;
+}
+
+p {
+	font-family: 'MyCustomFont2', sans-serif;
+	font-size: 15px;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none; /* Убирает подчеркивание */
+}
+
+
